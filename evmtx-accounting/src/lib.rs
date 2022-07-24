@@ -1,3 +1,12 @@
+mode ethers::core::
+
+
+
+pub struct Transaction {};
+
+pub struct TransactionStatement {};
+
+
 #[cfg(test)]
 mod tests {
     #[test]

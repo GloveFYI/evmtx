@@ -3,12 +3,10 @@ name = "evmtx"
 version = "0.1.0"
 license = "LGPL-3.0"
 authors = ["0xAdil <adil0x@protonmail.com>"]
-readme = "README.md"
+readme = "../README.md"
 description = "evmtx - EVM chain accounting specifications and tools"
 repository = "https://github.com/pintnetwork/evmtx"
 keywords = ["ethereum", "evm", "accounting", "crypto"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

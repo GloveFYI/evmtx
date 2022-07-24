@@ -19,3 +19,13 @@ evmtx is inspired by [trueblocks-core](https://github.com/TrueBlocks/trueblocks-
 - Supporting rust ecosystem
 
 - Enabling [glove](https://github.com/pintnetwork/glove) to achieve one of its desired set of UX
+
+## Towards RPC recipes
+
+A recipe is a code written in any language that can compile to wasm.
+
+- Make validation to make sure it is indeed making only EVM RPC calls, this is tricky and bulk of implementation complexity
+
+- Compile to wasm, this is intertwined with above, as it may be that we can perform validation on compiled wasm too
+
+- 
